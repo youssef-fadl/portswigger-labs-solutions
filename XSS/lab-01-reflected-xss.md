@@ -1,5 +1,5 @@
 # Lab: Reflected XSS
-<Reflected XSS into HTML context with nothing encoded>
+Reflected XSS into HTML context with nothing encoded
 
 ## Category
 Cross-Site Scripting (Reflected)
