@@ -1,0 +1,22 @@
+## Potential Impact
+Successful exploitation of this reflected XSS vulnerability may allow an attacker to:
+- Perform browser fingerprinting
+- Hijack active user sessions
+- Harvest sensitive credentials
+- Chain client-side attacks using additional payloads or frameworks
+
+> This impact is demonstrated in a controlled lab environment and is presented for educational purposes only.
+
+---
+
+## Impact Summary
+The vulnerability allows execution of arbitrary JavaScript in the victim’s browser, which can ultimately lead to **full client-side compromise** depending on the attacker's objectives.
+
+---
+
+## Mitigation & Remediation
+To prevent this vulnerability, the following security measures should be implemented:
+- Apply proper **output encoding** based on the rendering context
+- Enforce a strict **Content Security Policy (CSP)**
+- Validate and sanitize all user-supplied input
+- Deploy relevant **security headers** (e.g., X-XSS-Protection, HttpOnly, Secure cookies)
