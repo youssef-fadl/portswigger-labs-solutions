@@ -1,6 +1,6 @@
 # Lab: Reflected XSS
 Reflected XSS into HTML context with nothing encoded
-[Lab: Reflected XSS into HTML context with nothing encoded](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
+(https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
 
 ## Category
 Cross-Site Scripting (Reflected)
