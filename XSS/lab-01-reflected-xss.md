@@ -48,6 +48,6 @@ Search functionality reflects user input directly in the response.
 
 ## Payload Used
 - YOUWE<'
-- <img src=s >
-- <script>alert(1)</script>
+- `<img src=s >`
+- `<script>alert(1)</script>`
 
